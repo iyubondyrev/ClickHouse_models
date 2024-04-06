@@ -1,0 +1,41 @@
+SELECT   groupName   FROM   torrents   ORDER   BY   totalSnatched   DESC   LIMIT   100 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   ORDER   BY   sum ( totalSnatched )   DESC   LIMIT   10 
+SELECT   releaseType   FROM   torrents   GROUP   BY   releaseType   ORDER   BY   sum ( totalSnatched )   DESC   LIMIT   10 
+SELECT   T2 . groupName   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id   WHERE   T1 . tag   =   "pop"   and   T2 . releaseType   =   "album"   ORDER   BY   T2 . totalSnatched   DESC   LIMIT   20 
+SELECT   T2 . groupName   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id   WHERE   T1 . tag   =   "instrumental"   and   T2 . releaseType   =   "album"   and   groupYear   >=   2000   ORDER   BY   T2 . totalSnatched   DESC   LIMIT   20 
+SELECT   T1 . tag   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id   WHERE   T2 . releaseType   =   "album"   GROUP   BY   T1 . tag   ORDER   BY   sum ( T2 . totalSnatched )   DESC   LIMIT   1 
+SELECT   groupName   FROM   torrents   WHERE   releaseType   =   "single"   ORDER   BY   totalSnatched   DESC   LIMIT   100 
+SELECT   sum ( totalSnatched ) ,   groupYear   FROM   torrents   GROUP   BY   groupYear 
+SELECT   count ( * ) ,   releaseType   FROM   torrents   GROUP   BY   releaseType 
+SELECT   count ( * ) ,   artist   FROM   torrents   GROUP   BY   artist 
+SELECT   groupName   FROM   torrents   ORDER   BY   totalSnatched   DESC   LIMIT   1 
+SELECT   groupName   FROM   torrents   ORDER   BY   totalSnatched   LIMIT   1 
+SELECT   DISTINCT   groupName   FROM   torrents 
+SELECT   groupName ,   groupYear   FROM   torrents 
+SELECT   groupName ,   artist   FROM   torrents 
+SELECT   DISTINCT   tag   FROM   tags 
+SELECT   DISTINCT   releaseType   FROM   torrents 
+SELECT   groupName   FROM   torrents   WHERE   groupYear   >   2000   ORDER   BY   totalSnatched   DESC   LIMIT   5 
+SELECT   DISTINCT   groupName   FROM   torrents   WHERE   totalSnatched   >   100   AND   releaseType   =   "album" 
+SELECT   T2 . groupName   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id   WHERE   T1 . tag   =   "houston"   ORDER   BY   totalSnatched   DESC   LIMIT   1 
+SELECT   groupName   FROM   torrents   WHERE   artist   =   "lasean camry"   AND   totalSnatched   =   ( SELECT   max ( totalSnatched )   FROM   torrents   WHERE   artist   =   "lasean camry" )   UNION   SELECT   groupName   FROM   torrents   WHERE   artist   =   "lasean camry"   AND   totalSnatched   =   ( SELECT   min ( totalSnatched )   FROM   torrents   WHERE   artist   =   "lasean camry" ) 
+SELECT   groupName   FROM   torrents   WHERE   releaseType   =   "album"   ORDER   BY   totalSnatched   DESC   LIMIT   10 
+SELECT   T1 . tag   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id   WHERE   T2 . groupYear   >=   2010   GROUP   BY   T1 . tag   ORDER   BY   T2 . totalSnatched   DESC   LIMIT   10 
+SELECT   groupYear   FROM   torrents   GROUP   BY   groupYear   ORDER   BY   count ( groupName )   LIMIT   1 
+SELECT   groupName   FROM   torrents   ORDER   BY   totalSnatched   DESC   LIMIT   1 
+SELECT   artist   FROM   torrents   WHERE   groupYear   =   2015   GROUP   BY   artist   ORDER   BY   totalSnatched   DESC   LIMIT   1 
+SELECT   T1 . tag ,   T2 . groupName   FROM   torrents   as   T2   JOIN   tags   as   T1   ON   T1 . id   =   T2 . id 
+SELECT   groupYear   FROM   torrents   GROUP   BY   groupYear   ORDER   BY   count ( groupName )   DESC   LIMIT   1 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   ORDER   BY   count ( groupName )   DESC   LIMIT   1 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   ORDER   BY   avg ( totalSnatched )   DESC   LIMIT   1 
+SELECT   groupYear   FROM   torrents   GROUP   BY   groupYear   ORDER   BY   count ( groupName )   DESC   LIMIT   1 
+SELECT   groupName   FROM   torrents   ORDER   BY   totalSnatched   DESC   LIMIT   1 
+SELECT   releaseType   FROM   torrents   GROUP   BY   releaseType   ORDER   BY   sum ( totalSnatched )   DESC   LIMIT   1 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   ORDER   BY   sum ( totalSnatched )   DESC   LIMIT   1 
+SELECT   sum ( totalSnatched ) ,   releaseType   FROM   torrents   GROUP   BY   releaseType 
+SELECT   sum ( totalSnatched )   FROM   torrents   WHERE   groupYear   BETWEEN   2000   AND   2010   UNION   SELECT   sum ( totalSnatched )   FROM   torrents   WHERE   groupYear   <   2000 
+SELECT   count ( * )   FROM   (   SELECT   groupName   FROM   torrents   GROUP   BY   groupName   HAVING   count ( * )   >   1   ) 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   ORDER   BY   count ( groupName )   DESC   LIMIT   1 
+SELECT   sum ( totalSnatched )   FROM   torrents   WHERE   releaseType   =   "ep"    UNION   SELECT   sum ( totalSnatched )   FROM   torrents   WHERE   releaseType   =   "album" 
+SELECT   artist   FROM   torrents   GROUP   BY   artist   HAVING   count ( * )   =   1 
+SELECT   artist   FROM   torrents   WHERE   groupYear   >   2010   GROUP   BY   artist 
