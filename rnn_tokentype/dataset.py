@@ -24,7 +24,7 @@ class TokenTypesDataset(Dataset):
                                 self.idx2token[self.token2idx[token]] = token
                         self.all_data.append(tokens)
 
-            self.max_length += 2
+            self.max_length = 512
         
         else:
             self.token2idx = vocabs[0]
@@ -77,7 +77,7 @@ class TokenTypesDataset(Dataset):
         :return: encoded text indices and its actual length (including BOS and EOS specials)
         """
 
-        tokens = [self.bos_id] + self.tokens2ids(self.all_data[item]) + [self.eos_id]
+        tokens = [self.bos_id] + self.tokens2ids(self.all_data[item][:self.max_length - 2]) + [self.eos_id]
         padded = torch.full((self.max_length, ), self.pad_id, dtype=torch.int64)
         padded[:len(tokens)] = torch.tensor(tokens)
         """

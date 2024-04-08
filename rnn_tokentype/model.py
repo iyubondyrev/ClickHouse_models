@@ -4,6 +4,7 @@ from torch import nn
 from dataset import TokenTypesDataset
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from torch.distributions.categorical import Categorical
+from typing import List
 
 
 class LanguageModel(nn.Module):
@@ -46,7 +47,7 @@ class LanguageModel(nn.Module):
         return logits
 
     @torch.inference_mode()
-    def inference(self, prefix: str = '', temp: float = 1.) -> str:
+    def inference(self, prefix: List[str], temp: float = 1.) -> str:
         """
         Generate new text with an optional prefix
         :param prefix: prefix to start generation
@@ -55,7 +56,7 @@ class LanguageModel(nn.Module):
         """
         self.eval()
 
-        tokens = [self.dataset.bos_id] + self.dataset.text2ids(prefix)[:self.max_length - 2]
+        tokens = [self.dataset.bos_id] + self.dataset.tokens2ids(prefix)[:self.max_length - 2]
         tokens = torch.tensor(tokens).unsqueeze(0).to(self.device)
 
         embeds = self.embedding(tokens)
@@ -66,21 +67,12 @@ class LanguageModel(nn.Module):
         new_tokens = Categorical(logits=logits[:, -1:]).sample()
         tokens = torch.cat([tokens, new_tokens], dim=1)
 
-        # 2 stopping conditions: reaching max len or getting <eos> token
-        while tokens.shape[1] < self.max_length:
-            if new_tokens.item() == self.dataset.eos_id:
-                break
-
-            # process newly obtained token
-            embeds = self.embedding(new_tokens)
-            output, hidden = self.rnn(embeds, hidden)
-            logits = self.linear(output) / temp
-            # sample the next token from logits
-            new_tokens = Categorical(logits=logits[:, -1:]).sample()
-            tokens = torch.cat([tokens, new_tokens], dim=1)
+        predicted = tokens.squeeze().tolist()[-1]
+        if predicted == self.dataset.eos_id:
+            return "<EOS>"
 
         # decode result to a string
-        return self.dataset.ids2text(tokens.squeeze())
+        return self.dataset.ids2tokens([predicted])[0]
         
 
         """

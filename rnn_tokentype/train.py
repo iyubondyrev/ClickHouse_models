@@ -13,8 +13,27 @@ import numpy as np
 sns.set_style('whitegrid')
 plt.rcParams.update({'font.size': 15})
 
+def compute_accuracy(logits: torch.Tensor, labels: torch.Tensor) -> float:
+    """
+    Compute the accuracy of predictions for an RNN language model.
+    
+    :param logits: Logits output by the model of shape [batch_size, sequence_length, vocab_size]
+    :param labels: Ground truth labels of shape [batch_size, sequence_length]
+    :return: Accuracy as a float
+    """
+    # Find the argmax of the logits along the last dimension to get the most likely token indices
+    predictions = logits.argmax(dim=-1)
+    
+    # Compute the number of correct predictions
+    correct_predictions = (predictions == labels).float().sum()
+    
+    # Calculate the accuracy
+    accuracy = correct_predictions / labels.numel()
+    
+    return accuracy.item()
 
-def plot_losses(train_losses: List[float], val_losses: List[float]):
+
+def plot_losses(train_losses: List[float], val_losses: List[float], train_accs: List[float], val_accs: List[float]):
     """
     Plot loss and perplexity of train and validation samples
     :param train_losses: list of train losses at each epoch
@@ -30,11 +49,9 @@ def plot_losses(train_losses: List[float], val_losses: List[float]):
     YOUR CODE HERE (⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿
     Calculate train and validation perplexities given lists of losses
     """
-    train_perplexities, val_perplexities = np.exp(train_losses), np.exp(val_losses)
-
-    axs[1].plot(range(1, len(train_perplexities) + 1), train_perplexities, label='train')
-    axs[1].plot(range(1, len(val_perplexities) + 1), val_perplexities, label='val')
-    axs[1].set_ylabel('perplexity')
+    axs[1].plot(range(1, len(train_accs) + 1), train_accs, label='train')
+    axs[1].plot(range(1, len(val_accs) + 1), val_accs, label='val')
+    axs[1].set_ylabel('accuracy')
 
     for ax in axs:
         ax.set_xlabel('epoch')
@@ -56,6 +73,7 @@ def training_epoch(model: LanguageModel, optimizer: torch.optim.Optimizer, crite
     """
     device = next(model.parameters()).device
     train_loss = 0.0
+    train_acc = 0.0
 
     model.train()
     for indices, lengths in tqdm(loader, desc=tqdm_desc):
@@ -66,10 +84,13 @@ def training_epoch(model: LanguageModel, optimizer: torch.optim.Optimizer, crite
         loss.backward()
         optimizer.step()
 
+        train_acc += compute_accuracy(logits, indices[:, 1:]) * indices.shape[0]
+
         train_loss += loss.item() * indices.shape[0]
 
     train_loss /= len(loader.dataset)
-    return train_loss
+    train_acc = train_acc / len(loader.dataset)
+    return train_loss, train_acc
 
 
 @torch.no_grad()
@@ -85,6 +106,7 @@ def validation_epoch(model: LanguageModel, criterion: nn.Module,
     """
     device = next(model.parameters()).device
     val_loss = 0.0
+    val_acc = 0.0
 
     model.eval()
     for indices, lengths in tqdm(loader, desc=tqdm_desc):
@@ -98,9 +120,11 @@ def validation_epoch(model: LanguageModel, criterion: nn.Module,
         loss = criterion(logits.transpose(1, 2), indices[:, 1:])
 
         val_loss += loss.item() * indices.shape[0]
+        val_acc += compute_accuracy(logits, indices[:, 1:]) * indices.shape[0]
 
     val_loss /= len(loader.dataset)
-    return val_loss
+    val_acc /= len(loader.dataset)
+    return val_loss, val_acc
 
 
 def train(model: LanguageModel, optimizer: torch.optim.Optimizer, scheduler: Optional[Any],
@@ -115,15 +139,15 @@ def train(model: LanguageModel, optimizer: torch.optim.Optimizer, scheduler: Opt
     :param num_epochs: number of training epochs
     :param num_examples: number of generation examples to print after each epoch
     """
-    train_losses, val_losses = [], []
+    train_losses, val_losses, train_accs, val_accs = [], [], [], []
     criterion = nn.CrossEntropyLoss(ignore_index=train_loader.dataset.pad_id)
 
     for epoch in range(1, num_epochs + 1):
-        train_loss = training_epoch(
+        train_loss, train_acc = training_epoch(
             model, optimizer, criterion, train_loader,
             tqdm_desc=f'Training {epoch}/{num_epochs}'
         )
-        val_loss = validation_epoch(
+        val_loss, val_acc = validation_epoch(
             model, criterion, val_loader,
             tqdm_desc=f'Validating {epoch}/{num_epochs}'
         )
@@ -133,8 +157,7 @@ def train(model: LanguageModel, optimizer: torch.optim.Optimizer, scheduler: Opt
 
         train_losses += [train_loss]
         val_losses += [val_loss]
-        plot_losses(train_losses, val_losses)
+        train_accs += [train_acc]
+        val_accs += [val_acc]
 
-        print('Generation examples:')
-        for _ in range(num_examples):
-            print(model.inference())
+        plot_losses(train_losses, val_losses, train_accs, val_accs)
