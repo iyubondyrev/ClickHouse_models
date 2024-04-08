@@ -1,0 +1,27 @@
+KeyWord Identifier KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Equals QuotedIdentifier KeyWord Identifier Identifier KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Equals QuotedIdentifier KeyWord Identifier Identifier KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier
+KeyWord KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Equals QuotedIdentifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord KeyWord KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier KeyWord Identifier Equals QuotedIdentifier
+KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord KeyWord KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier Identifier KeyWord KeyWord KeyWord KeyWord KeyWord OpeningRoundBracket Asterisk ClosingRoundBracket Identifier KeyWord Number
+KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier KeyWord KeyWord KeyWord QuotedIdentifier
+KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier KeyWord Identifier KeyWord QuotedIdentifier
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord QuotedIdentifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Equals QuotedIdentifier KeyWord Identifier Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Identifier KeyWord Number
+KeyWord Identifier KeyWord Identifier KeyWord KeyWord Identifier KeyWord KeyWord Identifier OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord KeyWord Number
+KeyWord KeyWord KeyWord Identifier KeyWord Identifier Equals QuotedIdentifier Identifier Identifier KeyWord KeyWord KeyWord KeyWord OpeningRoundBracket Asterisk ClosingRoundBracket KeyWord Identifier Number
+KeyWord KeyWord KeyWord Identifier KeyWord Identifier Equals QuotedIdentifier Identifier KeyWord Identifier Identifier KeyWord KeyWord OpeningRoundBracket Asterisk ClosingRoundBracket Identifier Identifier Number
+KeyWord Identifier KeyWord Identifier KeyWord Identifier Equals QuotedIdentifier
