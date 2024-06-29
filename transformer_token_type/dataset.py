@@ -24,7 +24,7 @@ class TokenTypesDataset(Dataset):
                                 self.idx2token[self.token2idx[token]] = token
                         self.all_data.append(tokens)
 
-            #self.max_length = 512
+            self.max_length = 128
         
         else:
             self.token2idx = vocabs[0]
@@ -87,4 +87,4 @@ class TokenTypesDataset(Dataset):
         pad to self.max_length using self.pad_id.
         Return padded indices of size (max_length, ) and its actual length
         """
-        return padded, len(tokens)
+        return padded
