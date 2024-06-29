@@ -15,7 +15,6 @@ KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord Ke
 KeyWord Identifier KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket OpeningRoundBracket Identifier Slash Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier Dot Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord KeyWord KeyWord Dot KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -418,9 +417,6 @@ KeyWord KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Slash Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket
 KeyWord Identifier Slash Identifier Slash Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier
 KeyWord Identifier
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
@@ -480,7 +476,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier
@@ -555,7 +550,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Ide
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals QuotedIdentifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Number
-KeyWord KeyWord Dot KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Dot KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals QuotedIdentifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
@@ -702,21 +696,11 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Colon Identifie
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Colon Identifier Identifier Equals Number Percent KeyWord Identifier KeyWord Equals Identifier Identifier
 KeyWord Identifier Colon Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Number Comma Number
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord KeyWord KeyWord Equals Number
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number Comma Number
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier Identifier OpeningRoundBracket Identifier DollarSign ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier DollarSign ClosingRoundBracket Equals Number
 KeyWord Identifier OpeningRoundBracket Identifier DollarSign ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier OpeningRoundBracket Identifier DollarSign ClosingRoundBracket Equals Number
@@ -1118,7 +1102,6 @@ KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equa
 KeyWord Identifier Identifier Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
-KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Identifier Equals Number Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
 KeyWord KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Dot Equals Number
@@ -1451,9 +1434,7 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals 
 KeyWord Identifier KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket OpeningRoundBracket Number ClosingRoundBracket Equals Identifier Identifier KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket KeyWord ClosingRoundBracket Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket KeyWord ClosingRoundBracket Equals Identifier
-KeyWord KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket KeyWord ClosingRoundBracket Equals Identifier Minus Identifier
-KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Minus Number KeyWord Identifier Equals Number Minus ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier
 KeyWord Identifier Identifier
 KeyWord Identifier Percent KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -1701,7 +1682,6 @@ KeyWord Identifier Identifier Identifier Identifier Identifier KeyWord KeyWord K
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number Slash Number Slash Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Identifier Comma Identifier Identifier Comma Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Minus Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier OpeningRoundBracket ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Minus Identifier
 KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier Identifier ClosingRoundBracket Equals Identifier Identifier Comma Identifier Asterisk Asterisk
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Minus Identifier Identifier Minus Number Identifier
@@ -1744,7 +1724,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals QuotedIdentifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals QuotedIdentifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals KeyWord Number OpeningRoundBracket Number Identifier ClosingRoundBracket
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals QuotedIdentifier
 KeyWord KeyWord
 KeyWord KeyWord
@@ -1771,9 +1750,7 @@ KeyWord KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRou
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number KeyWord Identifier Equals Identifier
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number
-KeyWord Identifier OpeningSquareBracket Identifier ClosingSquareBracket KeyWord KeyWord KeyWord Identifier Identifier OpeningSquareBracket Identifier ClosingSquareBracket Equals Number Identifier Identifier Identifier Minus KeyWord KeyWord Identifier ErrorSingleExclamationMark
 KeyWord KeyWord Identifier KeyWord KeyWord Number KeyWord KeyWord KeyWord Identifier Equals Number
-KeyWord Identifier Identifier OpeningSquareBracket Identifier ClosingSquareBracket KeyWord KeyWord KeyWord Identifier OpeningSquareBracket Identifier ClosingSquareBracket Equals Number Identifier Identifier Identifier Minus KeyWord KeyWord Identifier ErrorSingleExclamationMark
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Minus Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Minus Identifier
 KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -1851,7 +1828,6 @@ KeyWord Identifier Dot Identifier Dot Identifier OpeningRoundBracket Identifier 
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier Dot Identifier Dot Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number Number
@@ -2160,13 +2136,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Slash Identifier Dot KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Slash Identifier Dot KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Identifier
 KeyWord KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number Colon Number
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
@@ -2235,10 +2204,7 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier KeyWord
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier KeyWord Equals Number Identifier Number
 KeyWord KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Equals Number
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Number Identifier KeyWord KeyWord KeyWord Identifier Number Identifier Equals Number ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier
@@ -2373,15 +2339,12 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Number KeyW
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Identifier Less Number KeyWord Identifier Equals Identifier
 KeyWord Number KeyWord KeyWord KeyWord Identifier Equals Identifier Dot Identifier Dot Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Number Equals Identifier KeyWord Number Equals Identifier
-KeyWord Identifier Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Identifier Greater Number KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Equals Identifier KeyWord KeyWord Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier KeyWord KeyWord Equals Number
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord KeyWord Greater Number KeyWord Identifier KeyWord Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
@@ -2442,13 +2405,11 @@ KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equa
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Slash Identifier Equals Minus Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Slash Identifier Equals Number KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Percent Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Slash Identifier Equals Plus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Percent Identifier Identifier Equals Number
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord KeyWord Equals Number Slash Number Slash Number
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number Comma Number KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -2486,7 +2447,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Iden
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals ErrorWrongNumber
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
@@ -2526,7 +2486,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number 
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Colon Number Dot Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -2551,7 +2510,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Iden
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier Identifier Identifier ErrorSingleExclamationMark
 KeyWord Identifier Number KeyWord Dot KeyWord KeyWord KeyWord KeyWord KeyWord Dot Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -2622,7 +2580,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier 
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord KeyWord Equals Identifier Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Comma Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
@@ -2767,7 +2724,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifi
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals Identifier KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier KeyWord Identifier Equals Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Number Identifier KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -2803,8 +2759,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier KeyWord Ide
 KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals KeyWord Identifier Identifier
 KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Equals Identifier Comma Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Identifier KeyWord Equals KeyWord Identifier Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Dot Identifier KeyWord Identifier Equals ErrorWrongNumber
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus Number Minus Number KeyWord Identifier Greater Number
@@ -2889,7 +2843,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Equals Identifier KeyWord KeyWord Equals Identifier KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Minus Identifier KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number Identifier Number
@@ -2929,12 +2882,8 @@ KeyWord KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Number KeyWord Identifier Equals Identifier Identifier
-KeyWord KeyWord ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier KeyWord KeyWord ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier KeyWord Identifier Identifier Equals Identifier Identifier KeyWord Identifier KeyWord Equals Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Identifier KeyWord Identifier Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier
@@ -3041,8 +2990,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Number Percent KeyWord
 KeyWord Identifier Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Number Comma Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Greater Number KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord Equals Number Identifier Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier Number KeyWord Identifier Equals Identifier Dot Identifier Dot Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals KeyWord Minus Identifier KeyWord Identifier Identifier Equals Identifier KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Identifier KeyWord Identifier Equals Identifier Dot Identifier Dot Identifier
@@ -3057,7 +3004,6 @@ KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Less
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Number Equals Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Less Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Number Equals Identifier Identifier
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number Comma Number
 KeyWord KeyWord Identifier OpeningRoundBracket Identifier Number ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier OpeningRoundBracket Number ClosingRoundBracket Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket DollarSign ClosingRoundBracket Less Number Comma Number Comma Number
@@ -3315,7 +3261,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier Identifier Number KeyWord KeyWord KeyWord Identifier Identifier Number Equals Number KeyWord Identifier Identifier Number Greater Number KeyWord Identifier Identifier Number Less Number
 KeyWord Identifier Identifier Identifier Number KeyWord KeyWord KeyWord Identifier Number Equals KeyWord Identifier KeyWord Identifier Identifier Number Greater Number KeyWord Identifier Identifier Number Greater Number
 KeyWord Identifier Identifier Identifier Number KeyWord KeyWord KeyWord Identifier Identifier Number Less Number KeyWord Identifier Identifier Number Less Number
@@ -3657,7 +3602,6 @@ KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier Identifier OpeningRoundBracket Identifier Number Slash Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier KeyWord OpeningRoundBracket Identifier Number Slash Identifier Slash Identifier ClosingRoundBracket OpeningRoundBracket KeyWord Percent ClosingRoundBracket Equals Number OpeningRoundBracket Number Percent ClosingRoundBracket KeyWord Identifier Identifier Identifier OpeningRoundBracket Identifier Number Slash Identifier Slash Identifier ClosingRoundBracket Greater Number
@@ -3739,9 +3683,7 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals KeyWord Identifier Colon Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals KeyWord Identifier Colon Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Colon Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Number Equals ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Number Comma Number KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Number Equals ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Number Comma Number KeyWord Identifier Identifier Equals Number Minus Identifier KeyWord Identifier Number Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier Number Identifier KeyWord Identifier Number Equals Identifier KeyWord Identifier Identifier Equals Number Minus Identifier
@@ -3865,7 +3807,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number 
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Slash Identifier Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Less Number Comma Number KeyWord Identifier Greater Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier KeyWord Identifier Less Number
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -3912,7 +3853,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Ide
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Equals Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier OpeningRoundBracket KeyWord ClosingRoundBracket Equals Minus Identifier OpeningRoundBracket Identifier ClosingRoundBracket
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
@@ -3939,10 +3879,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals At Identifier Identifier KeyWord Identifier Greater Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier OpeningRoundBracket Percent ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier OpeningRoundBracket Percent ClosingRoundBracket KeyWord KeyWord KeyWord KeyWord Identifier Equals Number Identifier Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
@@ -4011,9 +3947,7 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Number KeyW
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Less Number KeyWord KeyWord Minus Number Less Number KeyWord KeyWord Minus Number Greater Number
 KeyWord Identifier KeyWord Minus Number KeyWord KeyWord KeyWord Identifier Identifier Less Number KeyWord KeyWord Greater Number
 KeyWord Number KeyWord KeyWord KeyWord Number Equals Identifier Identifier Identifier
-KeyWord Number KeyWord KeyWord KeyWord Number Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Number Equals Identifier Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Number Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Number KeyWord KeyWord KeyWord Number Equals Identifier Identifier
 KeyWord Number KeyWord KeyWord KeyWord Number Equals Identifier Identifier Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
@@ -4110,9 +4044,7 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Slash Identifier Equals Number Colon Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Number Minus Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Greater Number
 KeyWord Number OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -4452,7 +4384,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Iden
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Equals Identifier KeyWord Identifier Equals KeyWord Minus Identifier KeyWord Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier Equals Identifier KeyWord Identifier Greater Number Comma Number KeyWord Identifier Equals Identifier Number ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals KeyWord
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals Identifier
@@ -4738,8 +4669,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifi
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Greater Number Comma Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number KeyWord KeyWord Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Dot Number
-KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals ErrorWrongNumber
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals QuotedIdentifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
@@ -4939,7 +4868,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Plus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
@@ -4975,9 +4903,7 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals 
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Comma Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier KeyWord Identifier Equals Identifier Number
@@ -5132,11 +5058,6 @@ KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Iden
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Slash Identifier KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord KeyWord Equals Identifier Identifier Identifier Number Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Less Number KeyWord Identifier OpeningRoundBracket Identifier Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Greater Number KeyWord Identifier Equals Identifier Minus Identifier Identifier KeyWord Identifier OpeningRoundBracket Identifier Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier OpeningRoundBracket Identifier Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier OpeningRoundBracket Identifier Number ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Less Number KeyWord Identifier OpeningRoundBracket Identifier Number ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
@@ -5248,9 +5169,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Dot Equals Iden
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
-KeyWord Identifier Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Identifier Dot KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Slash Identifier Equals Identifier Identifier
@@ -5301,7 +5219,6 @@ KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier 
 KeyWord Identifier Minus Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier KeyWord Identifier KeyWord Equals Identifier Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier KeyWord Identifier Less Number KeyWord Identifier Identifier Number Equals Identifier KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier KeyWord Identifier KeyWord Identifier Less Number
@@ -5350,11 +5267,9 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord KeyWor
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
 KeyWord KeyWord Identifier OpeningRoundBracket Identifier Number ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Greater Number
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord KeyWord Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier StringLiteral Identifier KeyWord Equals KeyWord
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number Slash Number Slash Number KeyWord Identifier Identifier Equals Number Slash Number Slash Number
@@ -5417,7 +5332,6 @@ KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Iden
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Minus Identifier Identifier KeyWord Identifier Equals Identifier
-KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Greater Number Comma Number
 KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -5436,7 +5350,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Greater Number KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Less Number
@@ -5531,7 +5444,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord KeyWord Equals Identifier Ide
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Identifier OpeningRoundBracket Number Identifier Dot ClosingRoundBracket
 KeyWord KeyWord Number KeyWord KeyWord KeyWord KeyWord Equals Number Identifier KeyWord Identifier Equals Number Colon Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Colon Number
-KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Identifier Identifier Minus Identifier KeyWord Identifier Equals Number
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number
@@ -5742,7 +5654,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord Identifier Equals Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
 KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord ErrorWrongNumber
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord KeyWord Equals Identifier Number
 KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Equals Number
@@ -5751,16 +5662,12 @@ KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Slash Identifier E
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
-KeyWord Identifier Identifier Dot KeyWord KeyWord KeyWord Identifier Dot Greater Number KeyWord Identifier Equals Identifier Identifier KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier Dot KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Dot Less Number
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
 KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord KeyWord Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Identifier Equals Number OpeningRoundBracket Number ClosingRoundBracket
@@ -6044,7 +5951,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord 
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Equals Number KeyWord Identifier Equals KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Less Number KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier OpeningRoundBracket ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -6055,7 +5961,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier 
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Greater Minus Number KeyWord Identifier Identifier Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
 KeyWord KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
@@ -6226,7 +6131,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier Identifier Minus Number ErrorDoubleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier KeyWord KeyWord Equals Identifier Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Number KeyWord Identifier Identifier Dot Equals Identifier Minus Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier Dot
@@ -6315,7 +6219,6 @@ KeyWord Identifier OpeningRoundBracket KeyWord ClosingRoundBracket KeyWord KeyWo
 KeyWord Identifier OpeningRoundBracket Identifier KeyWord ClosingRoundBracket KeyWord KeyWord KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals KeyWord Identifier Identifier KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord KeyWord Less Number
 KeyWord KeyWord Number KeyWord KeyWord KeyWord KeyWord Number Equals Identifier Identifier
 KeyWord KeyWord Number KeyWord KeyWord KeyWord KeyWord Number Equals Identifier Identifier
@@ -6734,7 +6637,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number M
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Identifier Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Number Comma Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Number
@@ -6843,7 +6745,6 @@ KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord Ke
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier KeyWord Identifier Less Number KeyWord Identifier Equals Number
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Greater Number KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number ErrorDoubleQuoteIsNotClosed
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier KeyWord Identifier Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Number Comma Number
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
@@ -6926,7 +6827,6 @@ KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Less Number KeyWord I
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Greater Number
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Identifier Equals Number
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Percent KeyWord Identifier Identifier Equals Number Percent
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Percent
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Percent KeyWord KeyWord Equals Number Identifier Number
@@ -6986,9 +6886,7 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifi
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Equals Number KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Greater Number KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Number KeyWord Identifier Equals Identifier Identifier KeyWord Identifier Less Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord Identifier Equals Identifier KeyWord Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Identifier
@@ -7299,7 +7197,6 @@ KeyWord Identifier Identifier Slash Identifier KeyWord KeyWord KeyWord Identifie
 KeyWord Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier
 KeyWord Identifier StringLiteral Identifier KeyWord Equals KeyWord Identifier
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Greater Number
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals Identifier
@@ -7477,7 +7374,6 @@ KeyWord Identifier Dot KeyWord KeyWord KeyWord KeyWord Equals Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Less Number KeyWord Identifier Equals Identifier Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
@@ -7490,9 +7386,7 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Identifier Equals Number KeyW
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Greater Number KeyWord Identifier Greater Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier KeyWord KeyWord Equals Identifier Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier StringLiteral Identifier KeyWord Equals KeyWord Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier
 KeyWord Identifier Identifier
@@ -7503,14 +7397,11 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifi
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Identifier KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Minus Identifier KeyWord KeyWord KeyWord Identifier Greater Number KeyWord KeyWord Greater Number KeyWord Identifier Equals Number
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Equals Identifier KeyWord Identifier Less Number KeyWord KeyWord Less Number
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Number
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier
 KeyWord Identifier Identifier Identifier KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier KeyWord Identifier Identifier Equals Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord KeyWord Equals Number
-KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord KeyWord Identifier KeyWord KeyWord KeyWord Identifier Greater Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number Minus Number
@@ -7621,8 +7512,6 @@ KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Less Number
 KeyWord Identifier Dot KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier Number Comma Number
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier Dot Identifier
-KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord KeyWord KeyWord KeyWord KeyWord KeyWord Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier KeyWord KeyWord Equals Number
@@ -7644,7 +7533,6 @@ KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier Equals Identifi
 KeyWord Identifier KeyWord KeyWord KeyWord KeyWord Greater Number KeyWord Identifier Identifier Less Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier Identifier KeyWord Identifier Identifier
 KeyWord Identifier Identifier KeyWord KeyWord KeyWord Identifier KeyWord Equals Number Slash Number Slash Number KeyWord Identifier Greater Number KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket Equals Identifier Identifier
-KeyWord Identifier KeyWord KeyWord KeyWord Identifier Identifier Equals Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier OpeningRoundBracket Identifier ClosingRoundBracket KeyWord KeyWord KeyWord Identifier Equals Identifier Number KeyWord Identifier Less Number
 KeyWord KeyWord KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
@@ -7723,11 +7611,6 @@ KeyWord Number Slash Number KeyWord KeyWord KeyWord Number Slash Number Equals I
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Number
 KeyWord Identifier Slash Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier StringLiteral Identifier KeyWord Equals KeyWord Identifier Dot Identifier KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier StringLiteral Identifier KeyWord Equals KeyWord Identifier Identifier Identifier KeyWord Identifier ErrorSingleQuoteIsNotClosed
-KeyWord Identifier ErrorSingleQuoteIsNotClosed
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
 KeyWord Identifier KeyWord KeyWord KeyWord Identifier Equals Identifier Identifier
