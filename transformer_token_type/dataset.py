@@ -24,7 +24,7 @@ class TokenTypesDataset(Dataset):
                                 self.idx2token[self.token2idx[token]] = token
                         self.all_data.append(tokens)
 
-            self.max_length = 256
+            self.max_length = 128
         
         else:
             self.token2idx = vocabs[0]
