@@ -1,0 +1,272 @@
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT NAME Comma Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket NAME ClosingRoundBracket Greater Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket NAME ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT NAME FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket NAME ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals QuotedIdentifier
+SELECT NAME FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier ORDER BY Identifier DESC Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier GROUP BY Identifier ORDER BY OpeningRoundBracket Asterisk ClosingRoundBracket Identifier DESC Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier GROUP BY Identifier ORDER BY OpeningRoundBracket Asterisk ClosingRoundBracket Identifier DESC Number
+SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier ORDER BY Identifier LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT SOURCE FROM Identifier GROUP BY SOURCE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals QuotedIdentifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Comma MAX OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE QuotedIdentifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier Dot Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier UNION SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier Slash Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma MIN OpeningRoundBracket Identifier Dot Identifier Slash Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier LIKE QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier UNION SELECT Identifier FROM Identifier WHERE Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier UNION SELECT Identifier FROM Identifier WHERE Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Greater Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals QuotedIdentifier AND Identifier Dot Identifier Equals QuotedIdentifier ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals QuotedIdentifier AND Identifier Dot Identifier Equals QuotedIdentifier AND Identifier GreaterOrEquals Number ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Greater Number ORDER BY Identifier DESC LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Greater Number AND Identifier Equals QuotedIdentifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals QuotedIdentifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier AND Equals OpeningRoundBracket Identifier SELECT OpeningRoundBracket Identifier ClosingRoundBracket Identifier FROM Identifier WHERE Equals QuotedIdentifier ClosingRoundBracket Identifier Identifier UNION SELECT Identifier FROM Identifier Equals QuotedIdentifier = Identifier Equals OpeningRoundBracket Identifier = OpeningRoundBracket SELECT ClosingRoundBracket Identifier Identifier Identifier FROM Equals QuotedIdentifier ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier GreaterOrEquals Number GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number GROUP BY Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier BETWEEN Number AND Number UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Less Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Greater Number ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Greater Number GROUP BY Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY MAX OpeningRoundBracket Identifier ClosingRoundBracket Minus MIN OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier AND Identifier Dot Identifier Equals QuotedIdentifier Identifier Identifier Dot Identifier Equals QuotedIdentifier = Identifier Dot Identifier Equals QuotedIdentifier = Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Identifier Minus Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Identifier Minus Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Greater Number
+SELECT Identifier FROM Identifier WHERE YEAR Equals Number AND Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE YEAR GreaterOrEquals Number ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier GreaterOrEquals Number GROUP BY Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier AND Identifier Dot Identifier GreaterOrEquals Number
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier NotEquals QuotedIdentifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier Comma MIN OpeningRoundBracket Identifier Dot YEAR Minus Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot YEAR Minus Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier AND Identifier Dot Identifier Equals Identifier Dot YEAR WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier Minus Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE YEAR Equals QuotedIdentifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE YEAR Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Greater Number ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier Identifier AND Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE YEAR Equals QuotedIdentifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier Minus Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier BETWEEN Number AND Number GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals Number AND Identifier Greater Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier BETWEEN Number AND Number GROUP BY Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Asterisk FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier LIKE QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals Number ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals Number AND Identifier LIKE QuotedIdentifier
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier BETWEEN Number AND Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Asterisk FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals Number ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Greater Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE QuotedIdentifier AND Identifier Equals Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier BETWEEN Number AND Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier BETWEEN Number AND Number UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier BETWEEN Number AND Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier LIKE QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE TYPE Equals QuotedIdentifier AND Identifier Identifier ORDER BY Number
+SELECT Identifier FROM Identifier WHERE TYPE Equals QuotedIdentifier AND Identifier Identifier ORDER BY Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE QuotedIdentifier
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE TYPE Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier LIKE QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT TYPE FROM Identifier WHERE Identifier LIKE QuotedIdentifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT TYPE FROM Identifier WHERE Identifier LIKE QuotedIdentifier Identifier GROUP BY TYPE ORDER BY OpeningRoundBracket Asterisk ClosingRoundBracket Identifier DESC Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE TYPE LIKE QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE TYPE LIKE QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier WHERE TYPE Equals QuotedIdentifier AND Identifier Identifier GROUP BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Identifier * Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT TYPE FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier Identifier GROUP BY TYPE ORDER OpeningRoundBracket Asterisk ClosingRoundBracket * Identifier Number
+SELECT TYPE FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier NO Identifier Identifier GROUP BY OpeningRoundBracket Asterisk ClosingRoundBracket Identifier Identifier Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier LIKE QuotedIdentifier AND Identifier Equals QuotedIdentifier UNION SELECT Identifier FROM Identifier WHERE Identifier LIKE QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Asterisk FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Asterisk FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT Asterisk FROM Identifier WHERE Identifier Greater Number
+SELECT Identifier FROM Identifier WHERE MATCH LIKE QuotedIdentifier
+SELECT Asterisk FROM Identifier WHERE OpeningRoundBracket Identifier Plus Identifier ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier Identifier AND Identifier QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT MATCH FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier NotEquals QuotedIdentifier AND Identifier NotEquals QuotedIdentifier AND Identifier NotEquals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Greater Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Plus Identifier Greater Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals Number AND Identifier Equals Number
+SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier NotEquals QuotedIdentifier AND Identifier NotEquals QuotedIdentifier AND Identifier NotEquals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier AND Identifier Equals QuotedIdentifier
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier NotEquals QuotedIdentifier
+SELECT EXTRACT FROM Identifier GROUP BY EXTRACT ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket LIMIT Number
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot YEAR Equals Number GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number AND Identifier NOT IN OpeningRoundBracket SELECT Identifier FROM Identifier WHERE Identifier Equals Number ClosingRoundBracket
+SELECT Identifier Dot Identifier Comma Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier WHERE Identifier Dot Identifier Equals QuotedIdentifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Greater Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT YEAR Comma MONTH Comma DAY FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number AND Identifier Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Equals Identifier Dot Identifier ORDER BY YEAR Comma MONTH Comma DAY DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT MAX OpeningRoundBracket EXTRACT ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals QuotedIdentifier
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals QuotedIdentifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier

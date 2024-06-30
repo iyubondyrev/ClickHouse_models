@@ -1,0 +1,27 @@
+SELECT Location FROM GreaterManchesterCrime WHERE Location like "%Street%" GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT CrimeID FROM GreaterManchesterCrime WHERE Type = "Violence and sexual offences" ORDER BY CrimeTS DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime WHERE Type = "Violence and sexual offences" ORDER BY CrimeTS DESC LIMIT 1
+SELECT LSOA FROM GreaterManchesterCrime GROUP BY LSOA ORDER BY count ( * ) DESC LIMIT 1
+SELECT count ( * ) FROM GreaterManchesterCrime WHERE Location like "%Eden Street%"
+SELECT Type FROM GreaterManchesterCrime GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime WHERE Type = "Burglary" GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT LSOA FROM GreaterManchesterCrime GROUP BY LSOA ORDER BY count ( * ) DESC LIMIT 1
+SELECT CrimeTS FROM GreaterManchesterCrime GROUP BY CrimeTS ORDER BY count ( * ) DESC LIMIT 1
+SELECT Outcome FROM GreaterManchesterCrime WHERE Location LIKE "%Street%" GROUP BY Outcome ORDER BY count ( * ) DESC LIMIT 1
+SELECT Type FROM GreaterManchesterCrime WHERE LSOA LIKE "%Salford%" GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT count ( * ) FROM GreaterManchesterCrime WHERE Outcome = "Under investigation"
+SELECT count ( * ) FROM GreaterManchesterCrime
+SELECT Location FROM GreaterManchesterCrime GROUP BY Location ORDER BY count ( * ) DESC LIMIT 3
+SELECT Type FROM GreaterManchesterCrime WHERE Outcome LIKE "%Investigation complete%" GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT count ( * ) FROM GreaterManchesterCrime WHERE Type LIKE "%Drug%"
+SELECT count ( * ) FROM GreaterManchesterCrime WHERE Outcome LIke "%Under investigation%"
+SELECT Location FROM GreaterManchesterCrime WHERE Type LIke "%Drug%" GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT Type FROM GreaterManchesterCrime GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime GROUP BY Location ORDER BY count ( * ) LIMIT 1
+SELECT Location FROM GreaterManchesterCrime WHERE Type = "Violence and sexual offences" GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT Location FROM GreaterManchesterCrime GROUP BY Location ORDER BY count ( * ) DESC LIMIT 1
+SELECT Type FROM GreaterManchesterCrime WHERE Outcome = "Awaiting court outcome" GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT Type FROM GreaterManchesterCrime WHERE Outcome = "Investigation complete; no suspect identified" GROUP BY Type ORDER BY count ( * ) DESC LIMIT 1
+SELECT Outcome FROM GreaterManchesterCrime WHERE CrimeID = "6B:E2:54:C6:58:D2"
