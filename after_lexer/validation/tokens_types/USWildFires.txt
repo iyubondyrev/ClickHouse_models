@@ -1,0 +1,37 @@
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketBareWordMinusBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordNumberBareWordNumberBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsNumberBareWordBareWordGreaterNumber
+BareWordBareWordBareWordBareWordBareWordBareWordEqualsNumberBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketCommaBareWordBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordNumberBareWordNumberBareWordBareWordBareWord
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordAsteriskBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordStringLiteral
+BareWordBareWordBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsNumberBareWordBareWordBareWordBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsNumberBareWordBareWordBareWordStringLiteral
+BareWordBareWordOpeningRoundBracketBareWordBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordBareWordNumberBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteral
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracket
+BareWordBareWordOpeningRoundBracketBareWordBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteral
+BareWordAsteriskBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsNumberBareWordBareWordBareWordBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordGreaterNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordBareWordStringLiteralBareWordBareWordEqualsNumber
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordNumberBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordNumberBareWordNumberBareWordBareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordNumberBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsStringLiteral
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber

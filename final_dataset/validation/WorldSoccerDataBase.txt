@@ -1,0 +1,18 @@
+SELECT Identifier FROM Identifier WHERE Identifier LIKE StringLiteral AND Identifier Equals StringLiteral UNION SELECT Identifier FROM Identifier WHERE Identifier LIKE StringLiteral AND Identifier Equals StringLiteral
+SELECT Asterisk FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Asterisk FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Asterisk FROM Identifier WHERE Identifier Greater Number
+SELECT Identifier FROM Identifier WHERE MATCH LIKE StringLiteral
+SELECT Asterisk FROM Identifier WHERE OpeningRoundBracket Identifier Plus Identifier ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier LIKE StringLiteral
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE StringLiteral AND Identifier Equals StringLiteral
+SELECT MATCH FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier NotEquals StringLiteral AND Identifier NotEquals StringLiteral AND Identifier NotEquals StringLiteral
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Greater Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Plus Identifier Greater Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals Number AND Identifier Equals Number
+SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier NotEquals StringLiteral AND Identifier NotEquals StringLiteral AND Identifier NotEquals StringLiteral
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral AND Identifier Equals StringLiteral

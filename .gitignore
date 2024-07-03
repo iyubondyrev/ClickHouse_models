@@ -1,2 +1,4 @@
 .*
 lexer
+__pycache__/
+*.py[cod]

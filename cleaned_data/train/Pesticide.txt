@@ -1,0 +1,50 @@
+SELECT DISTINCT commod FROM resultsdata15 WHERE concen != ''
+SELECT extract FROM resultsdata15 GROUP BY extract ORDER BY count(*) DESC LIMIT 1
+SELECT determin FROM resultsdata15 GROUP BY determin ORDER BY count(*) DESC LIMIT 1
+SELECT lab FROM resultsdata15 GROUP BY lab ORDER BY count(*) DESC LIMIT 5
+SELECT commtype FROM resultsdata15 WHERE commod = 'AP' GROUP BY commtype ORDER BY sum(concen) DESC LIMIT 1
+SELECT T1.country FROM sampledata15 as T1 JOIN resultsdata15 as T2 ON T1.sample_pk = T2.sample_pk GROUP BY T1.country ORDER BY T2.concen
+SELECT T1.disttype FROM sampledata15 as T1 JOIN resultsdata15 as T2 ON T1.sample_pk = T2.sample_pk GROUP BY T1.disttype ORDER BY sum(T2.concen) DESC LIMIT 1
+SELECT T1.country FROM sampledata15 as T1 JOIN resultsdata15 as T2 ON T1.sample_pk = T2.sample_pk WHERE T2.concen = '0' GROUP BY T1.country
+SELECT commod, count(*) FROM sampledata15 GROUP BY commod
+SELECT pestcode FROM resultsdata15 GROUP BY pestcode ORDER BY count(*) DESC LIMIT 1
+SELECT pestcode FROM resultsdata15 GROUP BY pestcode ORDER BY count(*) LIMIT 1
+SELECT sample_pk, testclass FROM resultsdata15
+SELECT sample_pk, growst FROM sampledata15
+SELECT sample_pk, packst FROM sampledata15
+SELECT sample_pk, distst FROM sampledata15
+SELECT sample_pk FROM sampledata15 WHERE origin = '2'
+SELECT DISTINCT commod FROM sampledata15
+SELECT count(*) FROM sampledata15 WHERE origin = '3'
+SELECT T2.commod FROM resultsdata15 as T2 JOIN sampledata15 as T1 ON T1.sample_pk = T2.sample_pk WHERE T1.year = 15 GROUP BY T2.commod ORDER BY sum(T2.concen) DESC LIMIT 10
+SELECT commod FROM sampledata15 WHERE origin = 2 AND commod not in (SELECT commod FROM sampledata15 WHERE origin = 1)
+SELECT T1.growst, avg(T2.concen) FROM sampledata15 as T1 JOIN resultsdata15 as T2 ON T1.sample_pk = T2.sample_pk GROUP BY T1.growst
+SELECT T1.variety FROM resultsdata15 as T2 JOIN sampledata15 as T1 ON T1.sample_pk = T2.sample_pk WHERE T2.commod = 'AP' GROUP BY T1.variety ORDER BY sum(T2.concen) DESC LIMIT 1
+SELECT commod FROM resultsdata15 WHERE concen > lod
+SELECT lab FROM resultsdata15 GROUP BY lab ORDER BY count(*) DESC LIMIT 5
+SELECT T1.country FROM sampledata15 as T1 JOIN resultsdata15 as T2 ON T1.sample_pk = T2.sample_pk GROUP BY T1.country ORDER BY sum(T2.concen) LIMIT 1
+SELECT distst FROM sampledata15 GROUP BY distst ORDER BY count(*) DESC LIMIT 1
+SELECT max(concen) FROM resultsdata15
+SELECT year, month, day FROM sampledata15 WHERE sample_pk = 3763
+SELECT distst FROM sampledata15 WHERE commod = 'AP' GROUP BY distst ORDER BY count(*) DESC LIMIT 1
+SELECT growst FROM sampledata15 WHERE commod = 'AP' GROUP BY growst ORDER BY count(*) DESC LIMIT 1
+SELECT count(DISTINCT variety) FROM sampledata15
+SELECT site FROM sampledata15 WHERE sample_pk = 3763
+SELECT country FROM sampledata15 WHERE sample_pk = 6480 AND origin = 2
+SELECT quantity FROM sampledata15 WHERE sample_pk = 9628
+SELECT testclass FROM resultsdata15 WHERE sample_pk = 7498
+SELECT confmethod FROM resultsdata15 as T2 JOIN sampledata15 as T1 ON T1.sample_pk = T2.sample_pk ORDER BY year, month, day DESC LIMIT 1
+SELECT lab FROM resultsdata15 GROUP BY lab ORDER BY count(*) DESC LIMIT 1
+SELECT max(testclass) FROM resultsdata15
+SELECT conunit FROM resultsdata15 WHERE sample_pk = 3879
+SELECT conunit FROM resultsdata15 WHERE commod = 'PO'
+SELECT mean FROM resultsdata15 WHERE commod = 'AP'
+SELECT max(extract) FROM resultsdata15
+SELECT lab FROM resultsdata15 GROUP BY lab ORDER BY count(*) DESC LIMIT 1
+SELECT lab FROM resultsdata15 WHERE commod = 'AP'
+SELECT count(*) FROM sampledata15 WHERE origin = '2'
+SELECT commod FROM resultsdata15 WHERE mean = 'A' GROUP BY commod ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM sampledata15 WHERE claim = 'PO' GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT max(country) FROM sampledata15
+SELECT max(commod) FROM resultsdata15
+SELECT max(pestcode) FROM resultsdata15

@@ -1,0 +1,41 @@
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals StringLiteral AND Identifier Dot Identifier Equals StringLiteral ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals StringLiteral AND Identifier Dot Identifier Equals StringLiteral AND Identifier GreaterOrEquals Number ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals StringLiteral GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Greater Number ORDER BY Identifier DESC LIMIT Number
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Greater Number AND Identifier Equals StringLiteral
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier Equals StringLiteral ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral ClosingRoundBracket UNION SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID WHERE Identifier Dot Identifier GreaterOrEquals Number GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals Number GROUP BY Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Equals Identifier Dot ID
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier BETWEEN Number AND Number UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Less Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Greater Number ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier WHERE Identifier Greater Number GROUP BY Identifier

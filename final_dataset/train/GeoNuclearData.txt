@@ -1,0 +1,32 @@
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT NAME Comma Identifier FROM Identifier WHERE Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals StringLiteral
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket NAME ClosingRoundBracket Greater Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket NAME ClosingRoundBracket Equals Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket NAME ClosingRoundBracket DESC LIMIT Number
+SELECT NAME FROM Identifier ORDER BY Identifier DESC LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Identifier OpeningRoundBracket NAME ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals StringLiteral
+SELECT NAME FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Number
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral ORDER BY Identifier DESC LIMIT Number
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Equals StringLiteral AND Identifier Equals StringLiteral
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE Identifier Equals StringLiteral GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Equals StringLiteral ORDER BY Identifier LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT SOURCE FROM Identifier GROUP BY SOURCE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Number
+SELECT Identifier FROM Identifier WHERE NAME Equals StringLiteral

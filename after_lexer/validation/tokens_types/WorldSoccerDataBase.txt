@@ -1,0 +1,18 @@
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordStringLiteralBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordStringLiteralBareWordBareWordEqualsStringLiteral
+BareWordAsteriskBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteral
+BareWordAsteriskBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteral
+BareWordAsteriskBareWordBareWordBareWordBareWordGreaterNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordStringLiteral
+BareWordAsteriskBareWordBareWordBareWordOpeningRoundBracketBareWordPlusBareWordClosingRoundBracketEqualsNumber
+BareWordBareWordBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordBareWordStringLiteral
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordBareWordStringLiteralBareWordBareWordEqualsStringLiteral
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordNumber
+BareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordNumber
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordNotEqualsStringLiteralBareWordBareWordNotEqualsStringLiteralBareWordBareWordNotEqualsStringLiteral
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordGreaterBareWord
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordPlusBareWordGreaterNumber
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordOpeningRoundBracketAsteriskClosingRoundBracketBareWordBareWordBareWordBareWordEqualsNumberBareWordBareWordEqualsNumber
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWord
+BareWordBareWordOpeningRoundBracketBareWordClosingRoundBracketBareWordBareWordBareWordBareWordNotEqualsStringLiteralBareWordBareWordNotEqualsStringLiteralBareWordBareWordNotEqualsStringLiteral
+BareWordBareWordBareWordBareWordBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteralBareWordBareWordEqualsStringLiteral
