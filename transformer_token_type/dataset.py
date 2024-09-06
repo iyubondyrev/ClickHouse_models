@@ -2,6 +2,7 @@ import os
 import torch
 from typing import Union, List, Tuple, Dict
 from torch.utils.data import Dataset
+from collections import Counter
 
 
 class TokenTypesDataset(Dataset):
@@ -9,6 +10,7 @@ class TokenTypesDataset(Dataset):
         self.all_data: List[List[str]] = []
         
         if train:
+            self.freqs = Counter()
             self.idx2token: Dict[int, str] = {}
             self.token2idx: Dict[str, int] = {}
             self.max_length = -1
@@ -18,13 +20,20 @@ class TokenTypesDataset(Dataset):
                     for line in file:
                         tokens = line.split()
                         self.max_length = max(self.max_length, len(tokens))
-                        for token in tokens:
-                            if token not in self.token2idx:
-                                self.token2idx[token] = len(self.token2idx) + 4
-                                self.idx2token[self.token2idx[token]] = token
+                        self.freqs.update(tokens)
+                            # if token not in self.token2idx:
+                            #     self.token2idx[token] = len(self.token2idx) + 4
+                            #     self.idx2token[self.token2idx[token]] = token
                         self.all_data.append(tokens)
 
             self.max_length = 512
+
+            most_common_words = self.freqs.most_common()[:335]
+
+            for word, _ in most_common_words:
+                self.token2idx[word] = len(self.token2idx) + 4
+                self.idx2token[self.token2idx[word]] = word
+            
         
         else:
             self.token2idx = vocabs[0]
@@ -42,6 +51,9 @@ class TokenTypesDataset(Dataset):
         self.eos_id = 2
         self.unk_id = 3
 
+        self.idx2token[self.pad_id] = "<PAD>"
+        self.idx2token[self.bos_id] = "<BOS>"
+        self.idx2token[self.eos_id] = "<EOS>"
         self.idx2token[self.unk_id] = "<UNK>"
 
         self.vocab_size = len(self.token2idx) + 4

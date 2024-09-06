@@ -1,0 +1,18 @@
+SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal UNION SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE MATCH LIKE Literal
+SELECT Asterisk FROM Identifier WHERE OpeningRoundBracket Identifier Arithmetics Identifier ClosingRoundBracket Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier LIKE Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal
+SELECT MATCH FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Arithmetics Identifier Comparison Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal

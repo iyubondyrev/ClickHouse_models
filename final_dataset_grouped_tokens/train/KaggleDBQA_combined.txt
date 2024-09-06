@@ -1,0 +1,272 @@
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Comparison Literal ORDER BY Identifier LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT SOURCE FROM Identifier GROUP BY SOURCE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Comma MAX OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier Dot Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier UNION SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot Identifier Arithmetics Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma MIN OpeningRoundBracket Identifier Dot Identifier Arithmetics Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal UNION SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal UNION SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID WHERE Identifier Dot Identifier Comparison Literal AND Identifier Dot Identifier Comparison Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID WHERE Identifier Dot Identifier Comparison Literal AND Identifier Dot Identifier Comparison Literal AND Identifier Comparison Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID WHERE Identifier Dot Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal ClosingRoundBracket UNION SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Comparison Identifier Dot ID
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier BETWEEN Literal AND Literal UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comparison Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY MAX OpeningRoundBracket Identifier ClosingRoundBracket Minus MIN OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal AND Identifier Dot Identifier Comparison Literal AND Identifier Dot YEAR Comparison Literal AND Identifier Dot Identifier Comparison Literal AND Identifier Dot YEAR Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier Arithmetics Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier Arithmetics Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE YEAR Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE YEAR Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal GROUP BY Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal AND Identifier Dot Identifier Comparison Literal
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier Comma MIN OpeningRoundBracket Identifier Dot YEAR Minus Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier Comma MAX OpeningRoundBracket Identifier Dot YEAR Minus Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier AND Identifier Dot Identifier Comparison Identifier Dot YEAR WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier Arithmetics Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE YEAR Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE YEAR Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comparison Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE YEAR Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier Arithmetics Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier BETWEEN Literal AND Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier BETWEEN Literal AND Literal GROUP BY Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier LIKE Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier LIKE Literal
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier BETWEEN Literal AND Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier BETWEEN Literal AND Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier BETWEEN Literal AND Literal UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier BETWEEN Literal AND Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Comparison Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier LIKE Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier LIKE Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE TYPE LIKE Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal
+SELECT Identifier FROM Identifier WHERE TYPE LIKE Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Comparison Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Comparison Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal UNION SELECT Identifier FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE MATCH LIKE Literal
+SELECT Asterisk FROM Identifier WHERE OpeningRoundBracket Identifier Arithmetics Identifier ClosingRoundBracket Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier LIKE Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier LIKE Literal AND Identifier Comparison Literal
+SELECT MATCH FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Arithmetics Identifier Comparison Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT EXTRACT FROM Identifier GROUP BY EXTRACT ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket LIMIT Literal
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot YEAR Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier NOT Comparison OpeningRoundBracket SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal ClosingRoundBracket
+SELECT Identifier Dot Identifier Comma Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier WHERE Identifier Dot Identifier Comparison Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT YEAR Comma MONTH Comma DAY FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal AND Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Comparison Identifier Dot Identifier ORDER BY YEAR Comma MONTH Comma DAY DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT MAX OpeningRoundBracket EXTRACT ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Comparison Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Comparison Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
