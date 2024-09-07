@@ -1,0 +1,41 @@
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal Operator Identifier Operator Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT Identifier Comma Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT DISTINCT Identifier FROM Identifier
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket UNION SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal GROUP BY Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot ID
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Literal UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM OpeningRoundBracket SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal UNION SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier

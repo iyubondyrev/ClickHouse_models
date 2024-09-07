@@ -1,0 +1,18 @@
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal UNION SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Asterisk FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier FROM Identifier WHERE MATCH Operator Literal
+SELECT Asterisk FROM Identifier WHERE OpeningRoundBracket Identifier Operator Identifier ClosingRoundBracket Operator Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT MATCH FROM Identifier ORDER BY Identifier DESC LIMIT Literal
+SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Identifier Operator Literal
+SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal

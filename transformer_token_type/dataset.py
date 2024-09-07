@@ -28,7 +28,7 @@ class TokenTypesDataset(Dataset):
 
             self.max_length = 512
 
-            most_common_words = self.freqs.most_common()[:335]
+            most_common_words = self.freqs.most_common()[:300]
 
             for word, _ in most_common_words:
                 self.token2idx[word] = len(self.token2idx) + 4

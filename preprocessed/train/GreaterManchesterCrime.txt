@@ -1,0 +1,27 @@
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Operator Literal ORDER BY Identifier DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Operator Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Operator Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE TYPE Operator Literal
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier FROM Identifier WHERE TYPE Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket LIMIT Literal
+SELECT Identifier FROM Identifier WHERE TYPE Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Operator Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT TYPE FROM Identifier WHERE Identifier Operator Literal GROUP BY TYPE ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal

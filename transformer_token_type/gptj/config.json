@@ -9,7 +9,7 @@
   "embd_pdrop": 0.1,
   "eos_token_id": 2,
   "initializer_range": 0.02,
-  "intermediate_size": 1024,
+  "intermediate_size": 512,
   "layer_norm_epsilon": 1e-05,
   "model_type": "gptj",
   "n_embd": 256,
@@ -25,5 +25,5 @@
   "torch_dtype": "float32",
   "transformers_version": "4.44.2",
   "use_cache": false,
-  "vocab_size": 339
+  "vocab_size": 304
 }
