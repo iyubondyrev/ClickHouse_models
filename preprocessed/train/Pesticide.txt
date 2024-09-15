@@ -1,5 +1,5 @@
 SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Operator Literal
-SELECT EXTRACT FROM Identifier GROUP BY EXTRACT ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
+SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Identifier ClosingRoundBracket DESC LIMIT Literal
@@ -24,7 +24,7 @@ SELECT Identifier FROM Identifier WHERE Identifier Operator Identifier
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT YEAR Comma MONTH Comma DAY FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
@@ -35,16 +35,16 @@ SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier ORDER BY YEAR Comma MONTH Comma DAY DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
-SELECT MAX OpeningRoundBracket EXTRACT ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier

@@ -22,7 +22,7 @@ SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Ide
 SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier DESC LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier LIMIT Literal

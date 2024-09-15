@@ -2,8 +2,8 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifi
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
 SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Operator Literal
@@ -14,8 +14,8 @@ SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket 
 SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal Operator Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE YEAR Operator Literal Operator YEAR Operator Literal
@@ -47,8 +47,8 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifi
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
 SELECT Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal
@@ -69,8 +69,8 @@ SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier LIMIT Lit
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier LIMIT Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
 SELECT DISTINCT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
@@ -99,8 +99,8 @@ SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier A
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot YEAR Operator Literal Semicolon
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot YEAR Operator Literal Semicolon
-SELECT Identifier Dot Identifier Comma Identifier Dot YEAR FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot YEAR Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier ClosingRoundBracket Semicolon
-SELECT Identifier Dot Identifier Comma Identifier Dot YEAR FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot YEAR Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier ClosingRoundBracket Semicolon
+SELECT Identifier Dot Identifier Comma Identifier Dot YEAR FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot YEAR Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier ClosingRoundBracket Semicolon
+SELECT Identifier Dot Identifier Comma Identifier Dot YEAR FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot YEAR Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket YEAR ClosingRoundBracket FROM Identifier ClosingRoundBracket Semicolon
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot YEAR Operator Literal Semicolon
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot YEAR Operator Literal Semicolon
 SELECT Identifier Dot Identifier Comma Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier Semicolon
@@ -117,8 +117,8 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifi
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal Semicolon
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Semicolon
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Semicolon
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier Semicolon
 SELECT Identifier Comma Identifier FROM Identifier Semicolon
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal Semicolon
@@ -137,8 +137,8 @@ SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identi
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE YEAR Operator Literal Semicolon
 SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Semicolon
 SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Semicolon
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier Semicolon
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier Semicolon
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier Semicolon
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier Semicolon
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal Semicolon
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal Semicolon
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Semicolon
@@ -165,10 +165,10 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifi
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Semicolon
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal Semicolon
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal ORDER BY Identifier Dot Identifier DESC LIMIT Literal Semicolon
-SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket Operator Identifier Dot Identifier Operator Literal Semicolon
-SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket Operator Identifier Dot Identifier Operator Literal Semicolon
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket Operator Identifier Dot Identifier Operator Literal Semicolon
+SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket Operator Identifier Dot Identifier Operator Literal Semicolon
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator YEAR Operator Literal
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal Semicolon
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal Semicolon
 SELECT Identifier FROM Identifier EXCEPT SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier Semicolon
@@ -269,8 +269,8 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identif
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier FROM Identifier GROUP BY Identifier
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
@@ -333,8 +333,8 @@ SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier Openin
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier FROM Identifier
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
@@ -416,13 +416,13 @@ SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Lit
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal
-SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
 SELECT Identifier Dot ID Comma Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier GROUP BY Identifier Dot ID HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier FROM Identifier ClosingRoundBracket
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier ORDER BY Identifier Dot Identifier DESC LIMIT Literal
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal INTERSECT SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot ID Operator Identifier Dot Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal ClosingRoundBracket
@@ -437,8 +437,8 @@ SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Ident
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
@@ -492,7 +492,7 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identif
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier Comma DATE FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal
@@ -615,8 +615,8 @@ SELECT Identifier FROM Identifier ORDER BY Identifier
 SELECT Identifier FROM Identifier ORDER BY Identifier
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal Semicolon
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal Semicolon
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier Semicolon
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier Semicolon
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier Semicolon
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier Semicolon
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Semicolon
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Semicolon
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Semicolon
@@ -655,8 +655,8 @@ SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identi
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
 SELECT Identifier FROM Identifier ORDER BY Identifier DESC LIMIT Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
@@ -688,8 +688,8 @@ SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FR
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT DISTINCT Identifier Comma Identifier FROM Identifier
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier GROUP BY Identifier Dot Identifier HAVING Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Operator Literal
@@ -720,8 +720,8 @@ SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identi
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier LIMIT Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal ORDER BY Identifier LIMIT Literal
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
-SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
@@ -770,12 +770,12 @@ SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier A
 SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier Dot Identifier ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Operator Literal Operator Identifier Dot Identifier Operator Literal
-SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
-SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
-SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
-SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
-SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
-SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
+SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal ClosingRoundBracket
 SELECT Identifier FROM Identifier EXCEPT SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier FROM Identifier EXCEPT SELECT Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT DISTINCT Identifier FROM Identifier WHERE Identifier Operator Literal
@@ -814,12 +814,12 @@ SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Lit
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
-SELECT Identifier Comma Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
-SELECT Identifier Comma Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
-SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
-SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
-SELECT Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
-SELECT Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
+SELECT Identifier Comma Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier Comma Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
+SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal GROUP BY Identifier
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier
 SELECT Identifier FROM Identifier ORDER BY Identifier ASC
@@ -830,8 +830,8 @@ SELECT Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier FROM Identifier ORDER BY Identifier DESC
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM SHOW
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM SHOW
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE TYPE Operator Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket Comma MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE TYPE Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE TYPE Operator Literal
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE TYPE Operator Literal
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket DISTINCT Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier FROM Identifier ORDER BY Identifier DESC
@@ -914,8 +914,8 @@ SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifi
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID WHERE Identifier Dot Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
-SELECT MIN OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE ID Operator OpeningRoundBracket SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot ID ClosingRoundBracket
 SELECT Identifier FROM Identifier INTERSECT SELECT Identifier FROM Identifier
 SELECT Identifier FROM Identifier INTERSECT SELECT Identifier FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator OpeningRoundBracket SELECT Identifier FROM Identifier ClosingRoundBracket
@@ -958,8 +958,8 @@ SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal
 SELECT DISTINCT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
 SELECT DISTINCT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
-SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
-SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
+SELECT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator OpeningRoundBracket SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier ClosingRoundBracket
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier Comma Identifier FROM Identifier
@@ -986,12 +986,12 @@ SELECT Identifier Comma Identifier Comma Identifier FROM Identifier WHERE Identi
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier WHERE Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier FROM Identifier
 SELECT Identifier Comma Identifier FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier
 SELECT Identifier Comma Identifier Comma Identifier FROM Identifier
 SELECT DISTINCT Identifier Comma Identifier FROM Identifier
@@ -1014,8 +1014,8 @@ SELECT Identifier Comma Identifier OpeningRoundBracket Asterisk ClosingRoundBrac
 SELECT Identifier Comma Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier GROUP BY Identifier
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
 SELECT Identifier FROM Identifier GROUP BY Identifier ORDER BY Identifier OpeningRoundBracket Asterisk ClosingRoundBracket DESC LIMIT Literal
-SELECT Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
-SELECT Identifier Comma MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
+SELECT Identifier Comma Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier GROUP BY Identifier
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
 SELECT Identifier Dot Identifier Comma Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier
 SELECT DISTINCT Identifier Dot Identifier FROM Identifier AS Identifier JOIN Identifier AS Identifier ON Identifier Dot Identifier Operator Identifier Dot Identifier WHERE Identifier Dot Identifier Operator Literal

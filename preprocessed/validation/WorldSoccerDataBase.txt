@@ -11,7 +11,7 @@ SELECT YEAR FROM Identifier GROUP BY YEAR ORDER BY Identifier OpeningRoundBracke
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Identifier
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Identifier Operator Literal
-SELECT MAX OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
+SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Asterisk ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal
 SELECT Identifier OpeningRoundBracket DIV ClosingRoundBracket FROM Identifier
 SELECT Identifier OpeningRoundBracket Identifier ClosingRoundBracket FROM Identifier WHERE Identifier Operator Literal Operator Identifier Operator Literal Operator Identifier Operator Literal
