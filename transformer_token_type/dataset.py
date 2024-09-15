@@ -8,12 +8,30 @@ from collections import Counter
 class TokenTypesDataset(Dataset):
     def __init__(self, folder: str, train: bool = True, vocabs: Tuple[Dict[str, int], Dict[int, str]] = None, max_length: int = None):
         self.all_data: List[List[str]] = []
+
+        self.pad_id = 0
+        self.bos_id = 1
+        self.eos_id = 2
+        self.unk_id = 3
+
+        assert max_length is not None
         
         if train:
             self.freqs = Counter()
             self.idx2token: Dict[int, str] = {}
             self.token2idx: Dict[str, int] = {}
             self.max_length = -1
+
+
+            self.idx2token[self.pad_id] = "<PAD>"
+            self.idx2token[self.bos_id] = "<BOS>"
+            self.idx2token[self.eos_id] = "<EOS>"
+            self.idx2token[self.unk_id] = "<UNK>"
+
+            self.token2idx["<PAD>"] = self.pad_id
+            self.token2idx["<BOS>"] = self.bos_id
+            self.token2idx["<EOS>"] = self.eos_id
+            self.token2idx["<UNK>"] = self.unk_id
 
             for file_name in os.listdir(folder):
                 with open(os.path.join(folder, file_name)) as file:
@@ -24,9 +42,15 @@ class TokenTypesDataset(Dataset):
                             # if token not in self.token2idx:
                             #     self.token2idx[token] = len(self.token2idx) + 4
                             #     self.idx2token[self.token2idx[token]] = token
-                        self.all_data.append(tokens)
+                        
+                        
+                        tokens = ["<BOS>"] + tokens + ["<EOS>"]
 
-            self.max_length = 512
+                        for wrapped_tokens in [tokens[i:i + max_length] for i in range(0, len(tokens), max_length)]:
+                            self.all_data.append(wrapped_tokens)
+                        
+
+            self.max_length = max_length
 
             most_common_words = self.freqs.most_common()[:300]
 
@@ -46,17 +70,8 @@ class TokenTypesDataset(Dataset):
                         tokens = line.split()
                         self.all_data.append(tokens)
 
-        self.pad_id = 0
-        self.bos_id = 1
-        self.eos_id = 2
-        self.unk_id = 3
 
-        self.idx2token[self.pad_id] = "<PAD>"
-        self.idx2token[self.bos_id] = "<BOS>"
-        self.idx2token[self.eos_id] = "<EOS>"
-        self.idx2token[self.unk_id] = "<UNK>"
-
-        self.vocab_size = len(self.token2idx) + 4
+        self.vocab_size = len(self.token2idx)
 
     def tokens2ids(self, tokens: List[str]) -> List[int]:
         res = []
@@ -89,7 +104,7 @@ class TokenTypesDataset(Dataset):
         :return: encoded text indices and its actual length (including BOS and EOS specials)
         """
 
-        tokens = [self.bos_id] + self.tokens2ids(self.all_data[item][:self.max_length - 2]) + [self.eos_id]
+        tokens = self.tokens2ids(self.all_data[item][:self.max_length]) 
         padded = torch.full((self.max_length, ), self.pad_id, dtype=torch.int64)
         padded[:len(tokens)] = torch.tensor(tokens)
         """
